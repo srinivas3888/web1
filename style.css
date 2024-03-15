@@ -1,0 +1,184 @@
+body{
+    background-color: aqua;
+}
+#ti{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#ul01{
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    background-color: grey;
+    float: right;
+}
+.nav{
+    padding: 8px;
+    margin: 2px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(74, 74, 72);
+    color: white;
+}
+.nav:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.nav:active{
+    background-color: red;
+}
+#ti02{
+    width: 600px;
+    height: 300px;
+    float: right;
+}
+#ti02 img{
+    width: 600px;
+    height: 300px;
+    display: block;
+    float: right;
+}
+#ti02 img:hover{
+    opacity: 0.75;
+}
+#ti02 a{
+    width: 600px;
+    height: 300px;
+}
+#ti03{
+    text-align: center;
+}
+@keyframes colorAnimate{
+    from {
+        background-color:blue;
+        color: white;
+    }
+    to {
+        background-color: black;
+    color: red;
+    }
+}
+#ti03 span{
+    animation-name: colorAnimate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+#table01{
+    width: 750px;
+    height: 400px;
+    margin: 0;
+    border: 2px;
+    border-radius: 10px;
+    border-color: darkblue;
+    border-style: dashed;
+    float: right;
+}
+#th{
+    color: red;
+    background-color:black;
+}
+.td{
+    color: black;
+    font-style: italic;
+}
+.det01{
+    width: 200px;
+    text-align: center;
+    display: inline;
+    color: red;
+}
+#format01{
+    height: 200px;
+}
+#a{
+    float: right;
+}
+#b{
+    float: left;
+}
+#sum01{
+    background-color: blueviolet;
+    border: 2px;
+    border-style: solid;
+    border-color: azure;
+}
+#sum02{
+    background-color: purple;
+    border: 2px;
+    border-style: solid;
+    border-color: azure;
+}
+#ved{
+    width: 300px;
+    height: 300px;
+    float: center;
+}
+#insta{
+    text-decoration: none;
+    color:red;
+    background-color: black;
+}
+#insta:hover{
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+#whats{
+    text-decoration: none;
+    color:green;
+    background-color: white;
+}
+
+form{
+    background-color: black;
+    width: 400px;
+    text-align: center;
+}
+.label{
+    color: white;
+}
+.inp{
+    background-color: darkgrey;
+    color: black;
+    border: 2px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: solid;
+    margin: 3px;
+    padding: 6px;
+}
+.inp:focus{
+    background-color: white;
+}
+button{
+    background-color: chartreuse;
+    color: black;
+    padding: 6px 3px 3px;
+    width: 100px;
+}
+button:hover{
+    background-color: dodgerblue;
+    width: 125px;
+}
+button:active{
+    background-color: red;
+}
+#backved{
+    left: 0px;
+    top: 600px;
+    position: absolute;
+    width: 800px;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.85;
+}
+#owntext{
+    text-align: center;
+    width: 800px;
+    height: 430px;
+    z-index: 1;
+    color: deeppink;
+}
